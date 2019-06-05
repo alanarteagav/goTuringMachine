@@ -64,12 +64,9 @@ func (delta *Delta) build(transitions [][]string ) {
             runeArgumentSlice := []rune(transition[1])
             argumentSymbol := runeArgumentSlice[0]
             argument := Argument{argumentState, argumentSymbol}
-
             resultState := *NewState(transition[2])
-
             runeResultSlice := []rune(transition[3])
             resultSymbol := runeResultSlice[0]
-
             var result Result
             switch transition[4] {
             case "l":
@@ -81,7 +78,6 @@ func (delta *Delta) build(transitions [][]string ) {
             default:
                 result = Result{resultState, resultSymbol, N}
             }
-
             delta.addTransition(argument, result)
         }
     }
