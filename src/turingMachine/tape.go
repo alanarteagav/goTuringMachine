@@ -46,7 +46,7 @@ func (tape *Tape) addEnd(symbol rune) {
 }
 
 // Function that adds a new cell to the tape.
-func (tape *Tape) addCell(symbol rune) {
+func (tape *Tape) Add(symbol rune) {
     newCell := new(Cell)
     newCell.symbol = symbol
     newCell.previous = tape.end
