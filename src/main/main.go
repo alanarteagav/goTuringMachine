@@ -2,8 +2,8 @@ package main
 
 import (
     "fmt"
-    "../turingMachine"
-    "../readJson"
+    "turingMachine"
+    "readJson"
 )
 
 func main()  {
