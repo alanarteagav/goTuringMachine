@@ -69,11 +69,11 @@ func (delta *Delta) build(transitions [][]string ) {
             resultSymbol := runeResultSlice[0]
             var result Result
             switch transition[4] {
-            case "l":
+            case "L":
                 result = Result{resultState, resultSymbol, L}
-            case "n":
+            case "N":
                 result = Result{resultState, resultSymbol, N}
-            case "r":
+            case "R":
                 result = Result{resultState, resultSymbol, R}
             default:
                 result = Result{resultState, resultSymbol, N}
