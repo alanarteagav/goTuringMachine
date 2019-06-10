@@ -1,5 +1,6 @@
 # goTuringMachine
-Go implementation of a deterministic Turing machine, given its rules as a JSON file.
+Go implementation of a deterministic Turing machine, given its rules as a JSON
+file.
 
 ### Compilación:
 Para compilar, primero ubíquese en el directorio del
@@ -32,7 +33,9 @@ como entrada:
 ```
 
 ### Ejecución ejercicio 2:
-Se adjunta la especificación de la máquina de Turing para el ejercicio 2, con un archivo llamado 'desc2.json', el cual, una vez compilado el programa, puede ser ejecutado de la siguiente manera :
+Se adjunta la especificación de la máquina de Turing para el ejercicio 2, con
+un archivo llamado 'desc2.json', el cual, una vez compilado el programa, puede
+ser ejecutado de la siguiente manera :
 ```
     Archivo con la descripcion de la MT : desc2.json
 ```
@@ -41,6 +44,9 @@ como entrada (un ejemplo es el siguiente):
 ```
     Inserte la cadena de entrada : 11x11=1111
 ```
+
+Las capturas de pantalla de las ejecuciones para esta máquina de Turing se
+encuentran en la carpeta 'screenshots'.
 
 ### Autores:
 Arteaga Vázquez Alan Ernesto
