@@ -6,6 +6,7 @@ import (
     "fmt"
 )
 
+// Structure to read a Turing Machine specification from a JSON file.
 type JsonTuringMachine struct {
     Estados        []string
     Entrada        []string
@@ -16,6 +17,7 @@ type JsonTuringMachine struct {
     Transiciones [][]string
 }
 
+// Reads a Turing Machine specification from a JSON file.
 func Read(fileName string) JsonTuringMachine{
     file, fileError := ioutil.ReadFile(fileName)
     if fileError != nil {
